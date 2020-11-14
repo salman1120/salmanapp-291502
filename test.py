@@ -1,3 +1,6 @@
+from flask import Flask
+
+app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello Salman!'
